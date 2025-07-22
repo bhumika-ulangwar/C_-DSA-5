@@ -1,0 +1,27 @@
+// Bhumika Ulangwar
+// 24070123030
+// ENTC A1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter the given number: ";
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << "The given number is an even number" << endl;
+    } else {
+        cout << "The given number is an odd number" << endl;
+    }
+
+    return 0;
+}
+
+//OUTPUT
+Enter the given number: 6
+The given number is an even number
+
+Enter the given number: 57
+The given number is an odd number
